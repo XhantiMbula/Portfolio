@@ -1,0 +1,87 @@
+.container{
+    display: flex;
+    border: 2px dotted aqua;
+    column-gap: 5px;
+}
+.container .my-divs-first{
+    border: 1px solid red;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    padding: 2px;
+}
+
+.container .my-divs-second{
+    border: 1px solid rgb(25, 87, 85);
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    grid-gap: 2%;
+    width: 100%;   
+}
+
+.my-divs-third{
+    border: 1px solid rgb(32, 25, 87);
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    border: 1px solid rgb(37, 37, 81);
+    height: 100px;
+    width: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px; 
+    border-radius: 10%;   
+}
+
+.item h5 {
+    text-align:center;
+}
+
+
+.item-second{
+    border: 1px solid rgb(37, 37, 81);
+    height: 90%;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px 2px rgb(157, 155, 155);
+}
+
+.item-third{
+    border: 1px solid rgb(37, 37, 81);
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.item-second:hover{
+    border: 3px solid green;
+    cursor: pointer;
+    transform: translateY(-5%);
+    transition: all .4s ease-in-out;
+    background-color: rgb(197, 201, 210);
+}
+
+span {
+    color: blueviolet;
+}
+
+.second-container{
+    border: 10px dotted black;
+}
+
+.my-divs-forth{
+    border: 1px solid hotpink;
+}
+
+.item-forth{
+     
+}
+

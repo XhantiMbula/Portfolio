@@ -1,0 +1,119 @@
+@media screen and (max-width: 700px){
+    header{
+        padding: 0px !important;
+    }
+
+    header .right-header{
+        padding: 2rem !important;
+    }
+
+    .theme-btn{
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+    .header-content{
+        grid-template-columns: 1fr !important;
+        padding-bottom: 6rem;
+    }
+
+    
+   .left-header .h-shape{
+        display: none;
+    }
+
+    .right-header{
+        grid-row: 1;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .right-header .name{
+        font-size: 2.5rem !important;
+    }
+
+    .header-content .left-header .image{
+        margin: 0 auto;
+        width: 100%;
+
+    }
+
+    .about-container{
+        grid-template-columns: 1fr !important;
+    }
+    .about-container .right-about{
+        grid-template-columns: 1fr !important;
+        padding-top: 2.5rem !important;
+    }
+
+    .about-container .left-about{
+        padding-right: 0;
+    }
+    .about-container .left-about p {
+        padding-left: 0;
+    }
+
+    .timeline{
+        grid-template-columns: 1fr !important;
+        padding-bottom: 6rem !important;
+    }
+
+    .about-stats .progress-bars{
+        grid-template-columns: 1fr !important;
+    }
+
+    .portfolios{
+        grid-template-columns: 1fr !important;
+        padding-bottom: 6rem !important;
+    }
+
+    .contact-content-container{
+        flex-direction: column;
+    }
+
+    .contact-content-container .right-contact{
+        margin-left: 0;
+        margin-top: 2.5rem;
+    }
+
+    .contact-content-container .right-contact .contact-form{
+        height: 90vh !important;
+    }
+
+    .contact-content-container .right-contact .i-c-2{
+        flex-direction: column;
+    }
+    .contact-content-container .right-contact .i-c-2 :last-child{
+        margin-left: 0 !important;
+        margin-top: 1.5rem !important;
+    }
+    .section{
+        padding: 2rem 2.5rem !important;
+    }
+
+    .main-title h2{
+        font-size: 2rem !important;
+    }
+    .main-title h2 span{
+        font-size: 2.5rem !important;
+    }
+    .main-title h2 .bg-text{
+        font-size: 3.5rem !important;
+    }
+
+    .controlls {
+        top:auto !important;
+        bottom: 0px !important;
+        display: flex ;
+        flex-direction: row !important;
+        justify-content: center !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        width: 100%;
+        background-color: var(--color-grey-5);
+        column-gap: 5px;
+    }
+
+    .controlls .control{
+        margin: 1rem .3rem;
+    }
+}

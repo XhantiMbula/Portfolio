@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        *{
+            font-family: 'Lucida Sans', 
+            'Lucida Sans Regular', 'Lucida Grande', 
+            'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+        }
+        body{
+            background-color: rgb(181, 201, 207);
+            
+        }
+        h1{
+            border: 1px solid red;
+            border-radius: 50%;
+            text-align: center;
+            height: 100%;
+                        
+        }
+        .h-shape{
+            border: 1px dotted rgb(143, 41, 62);
+            transition: all .4s ease-in-out;
+            width: 30%;
+            height: 100%;
+            background-color: rgb(172, 165, 165);
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: -1;
+            clip-path: polygon(10% 10%,46% 0, 79% 100%, 0 100%);
+        }
+
+        .con{
+            display: flex;
+            align-items: center;
+            
+            height: 10%;
+            width: 50%;
+            border: 2px darkcyan solid;
+        }
+        .main{
+            height: 100%;
+            border: 2px solid yellow;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+    <div class="con">
+        <div class="h-shape"></div>
+        <div class="som">
+            <h1>Shanta</h1>
+        </div>
+    </div>
+</div>
+    
+</body>
+</html>

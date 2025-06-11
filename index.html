@@ -114,12 +114,12 @@
     position: relative;
     color: var(--color-white);
     animation: fadeIn 0.3s ease;
-       border: 1px solid rgb(0, 255, 13, .3);
+       border: 1px solid var(--color-secondary);
        display: grid;
        grid-template-columns: 1fr 1fr;
        max-width: 1200px;
        gap: 20px;
-       box-shadow: 0 4px 8px rgb(3, 145, 3, .4);
+       box-shadow: 0 4px 8px var(--color-secondary);
 }
 
 @keyframes fadeIn {
@@ -188,8 +188,8 @@
     margin-top: 1rem;
     padding: 0.5rem 1rem;
     background: var(--color-primary);
-    border: 1px solid rgba(3, 116, 3, .4);
-    color: white;
+    border: 1px solid var(--color-secondary);
+    color: var(--color-white);
     border-radius: 5px;
     text-decoration: none;
     transition: background 0.3s ease;
@@ -275,7 +275,7 @@
                         I’m excited to connect with like-minded professionals, collaborate on innovative projects, and push the boundaries of what’s possible in web development and beyond. Feel free to reach out—I’d love to chat about tech, development, or potential opportunities!
                     </p><br />
                     <div class="btn-container">
-                        <a href="" class="main-btn">
+                        <a href="mycv/XhantiMbulaCV.pdf" class="main-btn" target="_blank">
                             <span class="btn-text"> Download CV </span>
                             <span class="btn-icon"><i class="fas fa-download"></i></span>
                         </a>    
@@ -753,7 +753,8 @@
             <div class="modal-img">
             <img class="modal-image" src="" alt="Project Image">
             </div>
-            <div class="modal-specs">            <h2 class="modal-title"></h2>
+            <div class="modal-specs">            
+                <h2 class="modal-title"></h2>
             <p class="modal-description"></p>
             <div class="modal-tech-stack">
                 <h3>Technologies Used:</h3>
@@ -787,20 +788,20 @@
                             <div class="contact-item">
                                 <div class="icon">
                                     <i class="fas fa-map-marker-alt"></i>
-                                    Location
+                                    Location : 
                                 </div>
                                 <p>
-                                    :Cape Town, Western Cape
+                                    Cape Town, Western Cape
                                 </p>
     
                             </div>
                             <div class="contact-item">
                                 <div class="icon">
                                     <i class="fas fa-envelope"></i>
-                                    Email
+                                    Email : 
                                 </div>
                                 <p>
-                                    :xhantimbula7@gmail.com
+                                     xhantimbula7@gmail.com
                                 </p>    
                             </div>
 
@@ -808,7 +809,7 @@
                             <div class="contact-item">
                                 <div class="icon">
                                     <i class="fas fa-user-graduate"></i>
-                                    Mobile Number
+                                    Mobile Number : 
                                 </div>
                                 <p>
                                     064 071 6111
@@ -818,6 +819,7 @@
                             <div class="contact-item">
                                 <div class="icon">
                                     <i class="fas fa-globe-africa"></i>
+                                    Languages : 
                                 </div>
                                 <p>
                                     IsiXhosa, English, IsiZulu
@@ -848,7 +850,9 @@
                     </div>
 
                     <div class="right-contact">
-                        <form class="contact-form" id="contact-form">
+                        <form class="contact-form" id="contact-form" 
+                        action="https://formspree.io/f/xnnvdnav" method="POST"
+                        >
                             <div class="input-control i-c-2">
                                 <input type="text" name="name" placeholder="YOUR NAME" autocomplete="username"/>
                                 <input type="email" name="email" placeholder="YOUR EMAIL" autocomplete="email"/>
@@ -862,10 +866,15 @@
                             
                                 <div class="btn-container">
                                 
-                                <button type="submit" onclick="sendMail()" class="main-btn">
+                                <button type="submit" class="main-btn" style="background-color: rgb(31, 30, 30, .3);">
                                     <span class="btn-text">Submit</span>
                                     <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
                                 </button>
+
+                                <!-- <button type="submit" onclick="sendMail()" class="main-btn">
+                                    <span class="btn-text">Submit</span>
+                                    <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+                                </button> -->
                                 </div>                       
                         </form>
                     </div>
